@@ -1,4 +1,8 @@
 MyApp::Application.routes.draw do
+  get "sessions/new"
+
+  get "users/new"
+
   resources :contacts
   resources :employees
   resources :projects
